@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Integrating Custom OIDC Provider with Next.js and Next Auth v5
+### Learn how to implement secure authentication in Next.js with Next Auth v5 and custom OpenID Connect (OIDC) for a seamless user experience.
 
+👉 Integrate NextAuth v5 + OIDC in 7 steps.
+🔒 Secure, scalable, and headache-free.
+
+📝 Read now full documentation: [(https://codeandscale.hashnode.dev/integrating-custom-oidc-provider-with-nextjs-and-next-auth-v5-a-step-by-step-guide)]
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Download Node.js: https://nodejs.org/en/download/package-manager
+- pnpm
+  ```sh
+  npm install -g pnpm
+  ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ednoa/projects.git
+   ```
+1. Open folder
+   ```sh
+   cd .\nextjs-authjs-oidc\
+   ```
+2. Install NPM packages
+   ```sh
+   pnpm install
+   ```
+3. Add AUTH_SECRET environment variable 
+   ```sh
+   npx auth secret
+   ```   
+4. Add following environment variables in `.env.local`
+   ```sh
+   AUTH_OIDC_CLIENT_ID= # The client ID for your OIDC provider.    
+   AUTH_OIDC_CLIENT_SECRET= # The client secret for your OIDC provider.    
+   AUTH_OIDC_ISSUER= # The OIDC provider's issuer URL.
+   ```
+5. Run the application
+   ```sh
+   pnpm run dev
+   ```   
+5. Open the webapp
+[(http://localhost:3000)]
