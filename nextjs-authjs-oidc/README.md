@@ -26,7 +26,7 @@ To get a local copy up and running, follow these steps.
    ```
 1. Open folder
    ```sh
-   cd .\nextjs-authjs-oidc\
+   cd projects/nextjs-authjs-oidc
    ```
 2. Install NPM packages
    ```sh
@@ -47,4 +47,9 @@ To get a local copy up and running, follow these steps.
    pnpm run dev
    ```   
 5. Open the webapp
-[(http://localhost:3000)]
+http://localhost:3000
+
+<br />
+<br />
+
+<a href="https://buymeacoffee.com/noahediz" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
