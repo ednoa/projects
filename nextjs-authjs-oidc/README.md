@@ -1,10 +1,9 @@
 # Integrating Custom OIDC Provider with Next.js and Next Auth v5
 ### Learn how to implement secure authentication in Next.js with Next Auth v5 and custom OpenID Connect (OIDC) for a seamless user experience.
 
-👉 Integrate NextAuth v5 + OIDC in 7 steps.
-🔒 Secure, scalable, and headache-free.
-
-📝 Read now full documentation: [(https://codeandscale.hashnode.dev/integrating-custom-oidc-provider-with-nextjs-and-next-auth-v5-a-step-by-step-guide)]
+👉 Integrate NextAuth v5 + OIDC in 7 steps. <br/>
+🔒 Secure, scalable, and headache-free. <br/>
+📝 Read now full documentation: [Link](https://codeandscale.hashnode.dev/integrating-custom-oidc-provider-with-nextjs-and-next-auth-v5-a-step-by-step-guide) <br/>
 
 <!-- GETTING STARTED -->
 ## Getting Started
